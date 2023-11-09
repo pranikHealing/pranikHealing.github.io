@@ -95,4 +95,4 @@ Commonly asked questions about pranic healing often revolve around its ... princ
 
 ## 7. Contact form
 
-To get in touch, you can reach out to Aditi Rao at Definitelynotaditi@gmail.com.
+To get in touch, you can reach out to Aditi Rao at definitelynotaditi@gmail.com.
