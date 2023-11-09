@@ -1,6 +1,6 @@
 # pranikHealing.github.io
 
-## Overview of Pranic healing
+## 1. Overview of Pranic healing
 
 History
 Pranic healing, a form of energy healing, was developed by Master Choa Kok Sui in the 1980s. Based on the principle of manipulating life energy (prana) to promote physical, emotional, and ... ... non-invasive ... ... healing method, making it suitable for those who prefer alternative therapies that do not involve medication or physical manipulation.
