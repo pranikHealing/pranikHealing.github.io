@@ -93,10 +93,9 @@ p {
   overflow: hidden;
   margin: auto;
   display: flex;
-  /* justify-content: center; Center items horizontally */
+  justify-content: center;
   align-items: center; /* Center items vertically */
-  margin-bottom: 20px; /* Adjust as needed */
-  /* padding-left:220px; */
+  margin-bottom: 20px; 
 }
 
 .slider img {
