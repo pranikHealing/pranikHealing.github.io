@@ -96,7 +96,7 @@ p {
   /* justify-content: center; Center items horizontally */
   align-items: center; /* Center items vertically */
   margin-bottom: 20px; /* Adjust as needed */
-  padding-left:220px;
+  /* padding-left:220px; */
 }
 
 .slider img {
