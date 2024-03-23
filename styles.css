@@ -1,0 +1,336 @@
+body {
+  /* background-image: url("pranic-healing.jpg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent; /* Remove background color */
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar ul li {
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin-bottom: 5px; /* Add some spacing between list items */
+  background-color: #f9f9f9; /* Add background color for shading */
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333; /* Add text color */
+}
+
+#navbar ul li a:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+}
+.slider img {
+  width: 700px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+.container {
+  width: 100px; /* Adjust as needed */
+  float: left;
+}
+
+#navbar {
+  display: none;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  margin-left: 220px; /* Reserve space for the navbar */
+}
+
+.slider {
+  width: 50%;
+  height: auto; /* Adjust height as needed */
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  /* justify-content: center; Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Adjust as needed */
+  padding-left:220px;
+}
+
+.slider img {
+  width: 70%;
+  height: auto;
+  display: none;
+}
+
+.slider img:first-child {
+  display: block;
+}
+
+.image-container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+/* Styling for the #overview div */
+#overview {
+  background: linear-gradient(to bottom, #f5e4e1 0%, #eadbd8 100%); /* Gradient background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the #type_of_ph div */
+#type_of_ph {
+  background: linear-gradient(to bottom, #eadbd8 0%, #e0d3d0 100%); /* Gradient background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the #benefits_of_ph div */
+#benefits_of_ph {
+  background: linear-gradient(to bottom, #e0d3d0 0%, #d6cac7 100%); /* Gradient background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the #how_to_find_a_ph div */
+#how_to_find_a_ph {
+  background: linear-gradient(to bottom, #d6cac7 0%, #ccc1bf 100%); /* Gradient background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the #faq, #articles, and #contact_form divs */
+#faq,
+#articles,
+#contact_form {
+  background: linear-gradient(to bottom, #ccc1bf 0%, #c1b8b6 100%); /* Gradient background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin-bottom: 20px; /* Add margin to create space between sections */
+}
+
+
+
+
+/* Reduce the width of all elements with the class 'body' */
+.body {
+  max-width: 80%; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Add some gap between elements with the class 'body' */
+.body > div {
+  margin-bottom: 20px; /* Add margin to create space between sections */
+}
+/* Styling for the h1 within #overview */
+#overview h1 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the paragraphs within #overview */
+#overview p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+
+
+/* Styling for the h3 within #type_of_ph */
+#type_of_ph h3 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the h4 within #type_of_ph */
+#type_of_ph h4 {
+  color: #666; /* Text color */
+  font-size: 20px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the paragraphs within #type_of_ph */
+#type_of_ph p {
+  color: #777; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+
+
+
+/* Styling for the h2 within #benefits_of_ph */
+#benefits_of_ph h2 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the paragraphs within #benefits_of_ph */
+#benefits_of_ph p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+/* Styling for the list items within #benefits_of_ph */
+#benefits_of_ph li {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 10px; /* Add margin for spacing between list items */
+}
+
+
+
+/* Styling for the h2 within #how_to_find_a_ph */
+#how_to_find_a_ph h2 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the paragraphs within #how_to_find_a_ph */
+#how_to_find_a_ph p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+/* Styling for the list items within #how_to_find_a_ph */
+#how_to_find_a_ph li {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 10px; /* Add margin for spacing between list items */
+}
+
+/* Styling for the anchor within #how_to_find_a_ph */
+#how_to_find_a_ph a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for the anchor hover state within #how_to_find_a_ph */
+#how_to_find_a_ph a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+/* Styling for the h2 within #faq, #articles, and #contact_form */
+#faq h2,
+#articles h2,
+#contact_form h2 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Styling for the paragraphs within #faq, #articles, and #contact_form */
+#faq p,
+#articles p,
+#contact_form p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+/* Styling for the list items within #faq */
+#faq li {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 10px; /* Add margin for spacing between list items */
+}
+
+/* Styling for the anchor within #faq */
+#faq a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for the anchor hover state within #faq */
+#faq a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling for the list items within #articles */
+#articles li {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 5px; /* Add margin for spacing between list items */
+}
+
+/* Styling for the anchor within #articles */
+#articles a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for the anchor hover state within #articles */
+#articles a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling for the paragraphs within #contact_form */
+#contact_form p {
+  color: #666; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}

@@ -1,144 +1,405 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Pranic Healing</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      margin: 0;
-      padding: 20px;
-    }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranic Healing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="toggleNavbar()">
+        <img
+          width="20px"
+          height="20px"
+          src="https://img.icons8.com/ios/50/menu--v1.png"
+          alt="menu--v1"
+        />
+      </button>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#type_of_ph">Types</a></li>
+          <li><a href="#benefits_of_ph">Benefits</a></li>
+          <li><a href="#how_to_find_a_ph">How to find a practitioner</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact_form">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="image-container">
+      <div class="site-logo">
+        <img
+          width="50%"
+          height="auto"
+          src="http://pranicwellnesscentre.com/wp-content/uploads/2018/10/PH-Revised-Logo.png"
+          alt="The Pranic Wellness Centre"
+        />
+      </div>
+      <div class="slider">
+        <img src="pranic_healing_1.jpg" alt="image1" />
+        <img src="pranic_healing_2.jpg" alt="image2" />
+        <img src="pranic_healing_4.jpg" alt="image3" />
+      </div>
+    </div>
 
-    h1 {
-      color: #333;
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
+    <div class="body">
+      <div id="overview">
+        <h1>Overview of Pranic healing</h1>
+        <p>
+          History Pranic healing, a form of energy healing, was developed by
+          Master Choa Kok Sui in the 1980s. Based on the principle of
+          manipulating life energy (prana) to promote physical, emotional, and
+          non-invasive healing method, making it suitable for those who prefer
+          alternative therapies that do not involve medication or physical
+          manipulation.
+        </p>
+      </div>
+      <div id="type_of_ph" >
+        <h3>TYPES OF PRANIC HEALING</h3>
+        <div class="basic_ph">
+          <h4>Basic Pranic Healing:</h4>
+          <p>
+            Energy Anatomy: Basic Pranic Healing teaches the principles of
+            energy anatomy, including the chakras (energy centers) and the
+            energy meridians that run through the body.
+          </p>
+          <p>
+            Cleansing: Pranic healers learn how to scan the energy field for
+            energy blockages or imbalances and then systematically remove these
+            diseased or congested energies.
+          </p>
+          <p>
+            Energizing: After cleansing, fresh and vital energy (prana) is
+            channeled and projected into the affected areas to accelerate the
+            body’s natural healing processes.
+          </p>
+          <p>
+            Conditions Treated: Basic Pranic Healing is effective for various
+            physical ailments, such as headaches, minor injuries, and common
+            illnesses.
+          </p>
+        </div>
+        <div class="advanced_ph">
+          <h4>Advanced Pranic Healing:</h4>
+          <p>
+            Specialized Techniques: Advanced Pranic Healing introduces more
+            advanced techniques and specific protocols for different health
+            conditions.
+          </p>
+          <p>
+            Color Pranas: Practitioners learn to use different colors of prana
+            to target specific ailments, as each color has unique healing
+            properties.
+          </p>
+          <p>
+            Sacred Geometry: The application of sacred geometry and certain
+            symbols is used to enhance the healing process.
+          </p>
+          <p>
+            Conditions Treated: Advanced Pranic Healing is particularly
+            effective for serious illnesses, chronic diseases, and conditions
+            that require more specialized attention.
+          </p>
+        </div>
+        <div class="pranic_psychotherapy">
+          <h4>Pranic Psychotherapy:</h4>
+          <p>
+            Emotional and Psychological Healing: Pranic Psychotherapy focuses on
+            healing emotional and psychological issues.
+          </p>
+          <p>
+            Negative Emotions: Techniques are used to disintegrate negative
+            thought forms, emotions, and psychological patterns stored in the
+            energy body.
+          </p>
+          <p>
+            Conditions Treated: This type of Pranic Healing is beneficial for
+            individuals dealing with stress, anxiety, trauma, depression, and
+            other emotional challenges.
+          </p>
+        </div>
+        <div class="pranic_crystal_healing">
+          <h4>Pranic Crystal Healing:</h4>
+          <p>
+            Crystal Selection: Specific crystals are chosen based on their
+            properties and the energy centers they target.
+          </p>
+          <p>
+            Crystal Activation: These crystals are then energetically cleansed,
+            charged, and programmed to enhance the healing process.
+          </p>
+          <p>
+            Conditions Treated: Pranic Crystal Healing can be used to amplify
+            the effects of healing for various conditions and energy imbalances.
+          </p>
+        </div>
+        <div class="pranic_pyschic_self_defense">
+          <h4>Pranic Psychic Self-Defense:</h4>
+          <p>
+            Psychic Attacks: This type of Pranic Healing is designed to protect
+            individuals from negative psychic and energetic influences.
+          </p>
+          <p>
+            Energy Shields: Techniques involve creating energetic shields and
+            fortifying the aura to prevent unwanted energetic intrusions.
+          </p>
+          <p>
+            Conditions Treated: Pranic Psychic Self-Defense helps individuals
+            maintain their energetic well-being and protects them from negative
+            psychic influences.
+          </p>
+        </div>
+        <div class="superbrain_yoga">
+          <h4>Superbrain Yoga:</h4>
+          <p>
+            Physical and Energetic Integration: Superbrain Yoga combines
+            specific physical exercises with energy work to balance and
+            integrate the left and right brain hemispheres.
+          </p>
+          <p>
+            Benefits: It is believed to enhance cognitive function, improve
+            memory, and promote emotional stability by harmonizing the brain’s
+            energy.
+          </p>
+        </div>
+        <div class="pranic_feng_shui">
+          <h4>Pranic Feng Shui:</h4>
+          <p>
+            Energy in Spaces: Pranic Feng Shui applies Pranic principles to
+            spaces, assessing the energy flow in homes and workplaces.
+          </p>
+          <p>
+            Improving Energy: Practitioners use Pranic Healing techniques to
+            enhance the energy balance within the environment, which can lead to
+            improved health, prosperity, and well-being.
+          </p>
+        </div>
+        <div class="kriyashakti">
+          <h4>Kriyashakti:</h4>
+          <p>
+            Goal Manifestation: Kriyashakti combines energy techniques with
+            practical exercises to help individuals materialize their goals and
+            attract abundance.
+          </p>
+          <p>
+            Techniques: This includes powerful visualizations, affirmations, and
+            energy practices to create a conducive environment for success.
+          </p>
 
-    p {
-      color: #666;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
+          <p>
+            These detailed descriptions provide a deeper understanding of each
+            type of Pranic Healing and its specific applications for physical,
+            emotional, and psychological well-being, as well as for enhancing
+            one’s living spaces and manifesting personal goals.
+          </p>
+        </div>
+      </div>
 
-    .image-container {
-      text-align: center;
-    }
+      <div id="benefits_of_ph">
+        <h2>The benefits of Pranic healing</h2>
+        <p>
+          Pranic Healing is an alternative energy healing system developed by
+          Master Choa Kok Sui, which aims to promote physical, emotional, and
+          mental well-being by balancing and harmonizing the body’s energy, or
+          “prana.” While its effectiveness and scientific validity are subject
+          to debate and further research, some proponents and practitioners
+          claim several potential benefits associated with Pranic Healing:
+        </p>
+        <ul>
+          <li>
+            Pain Relief: Pranic Healing is believed to help alleviate physical
+            pain and discomfort by clearing energy blockages, which may
+            contribute to various physical ailments.
+          </li>
+          <li>
+            Stress Reduction: Practitioners claim that Pranic Healing can reduce
+            stress and promote relaxation, which may improve mental and
+            emotional well-being.
+          </li>
+          <li>
+            Improved Energy Levels: The practice is said to enhance energy
+            levels and vitality by cleansing and revitalizing the body’s energy
+            systems.
+          </li>
+          <li>
+            Emotional Healing: Pranic Healing may help in releasing emotional
+            traumas and negative thought patterns, leading to emotional
+            well-being and a more positive outlook on life.
+          </li>
+          <li>
+            Enhanced Clarity and Focus: Some individuals report improved mental
+            clarity and focus after receiving Pranic Healing sessions.
+          </li>
+          <li>
+            Faster Recovery: It is believed that Pranic Healing can speed up the
+            body’s natural healing processes by optimizing the flow of vital
+            energy.
+          </li>
+          <li>
+            Enhanced Immune Function: Advocates suggest that Pranic Healing can
+            support the immune system, making the body more resilient to
+            illness.
+          </li>
+          <li>
+            Improved Relationships: By addressing emotional and mental
+            imbalances, Pranic Healing might help individuals improve their
+            relationships with others.
+          </li>
+          <li>
+            Holistic Approach: Pranic Healing is considered a holistic healing
+            system that addresses the underlying energetic imbalances that can
+            contribute to physical and psychological issues.
+          </li>
+          <li>
+            Non-Invasive: It is a non-touch and non-invasive healing method,
+            making it suitable for those who prefer alternative therapies that
+            do not involve medication or physical manipulation.
+          </li>
+        </ul>
+      </div>
 
-    .image-container img {
-      display: inline-block;
-      width: 200px;
-      height: auto;
-    }
-    img {
-      width: 700px; /* Adjust the width as needed */
-      height: auto; /* Maintain the aspect ratio */
-    }
-  </style>
-</head>
-<body>
-  <img src="pranichealing.jpeg" alt="Pranic Healing">
-  <h1>Overview of Pranic healing</h1>
-  <p>History Pranic healing, a form of energy healing, was developed by Master Choa Kok Sui in the 1980s. Based on the principle of manipulating life energy (prana) to promote physical, emotional, and non-invasive healing method, making it suitable for those who prefer alternative therapies that do not involve medication or physical manipulation.</p>
-  <img src="typesofpranichealing.jpeg" alt="Pranic Healing">
-  <h2>The different types of Pranic healing</h2>
-  <h3>TYPES OF PRANIC HEALING</h3>
-  <h4>Basic Pranic Healing:</h4>
-  <p>Energy Anatomy: Basic Pranic Healing teaches the principles of energy anatomy, including the chakras (energy centers) and the energy meridians that run through the body.</p>
-  <p>Cleansing: Pranic healers learn how to scan the energy field for energy blockages or imbalances and then systematically remove these diseased or congested energies.</p>
-  <p>Energizing: After cleansing, fresh and vital energy (prana) is channeled and projected into the affected areas to accelerate the body’s natural healing processes.</p>
-  <p>Conditions Treated: Basic Pranic Healing is effective for various physical ailments, such as headaches, minor injuries, and common illnesses.</p>
+      <div id="how_to_find_a_ph">
+        <h2>How to find a Pranic healing practitioner</h2>
+        <p>
+          To find a Pranic healing practitioner, you can follow these steps:
+        </p>
 
-  <h4>Advanced Pranic Healing:</h4>
-  <p>Specialized Techniques: Advanced Pranic Healing introduces more advanced techniques and specific protocols for different health conditions.</p>
-  <p>Color Pranas: Practitioners learn to use different colors of prana to target specific ailments, as each color has unique healing properties.</p>
-  <p>Sacred Geometry: The application of sacred geometry and certain symbols is used to enhance the healing process.</p>
-  <p>Conditions Treated: Advanced Pranic Healing is particularly effective for serious illnesses, chronic diseases, and conditions that require more specialized attention.</p>
+        <ol>
+          <li>
+            Pranic Healing Official Website: Visit the
+            <a href="https://www.pranichealing.com/"
+              >official website of Pranic Healing</a
+            >
+            and navigate to the “Find a Practitioner” or “Directory” section.
+            They often provide a search feature where you can enter your
+            location or preferred criteria to find certified practitioners in
+            your area.
+          </li>
+          <li>
+            Local Pranic Healing Centers: Check if there are any local Pranic
+            Healing centers or institutes in your area. These centers usually
+            have a list of certified practitioners associated with them. You can
+            contact them directly or visit their websites to find practitioners
+            near you.
+          </li>
+          <li>
+            Pranic Healing Associations: Look for Pranic Healing associations or
+            organizations in your country or region. These associations often
+            maintain directories of certified practitioners. They may have
+            online directories or provide contact information to help you
+            connect with practitioners.
+          </li>
+          <li>
+            Referrals and Recommendations: Seek recommendations from friends,
+            family, or acquaintances who have experience with Pranic healing.
+            They may be able to refer you to a trusted practitioner they have
+            worked with or know personally.
+          </li>
+          <li>
+            Online Directories and Platforms: Explore online directories and
+            platforms that specialize in alternative healing practices. Websites
+            like Healing Clouds (https://www.healingclouds.com/) or Energy
+            Healing Exchange (https://www.energyhealingexchange.com/) may have
+            listings of Pranic healing practitioners along with reviews and
+            ratings from previous clients.
+          </li>
+          <li>
+            Social Media and Online Communities: Engage with Pranic healing
+            communities on social media platforms like Facebook, LinkedIn, or
+            forums dedicated to energy healing. These communities often have
+            members who are practitioners or can provide recommendations based
+            on their experiences.
+          </li>
+        </ol>
 
-  <h4>Pranic Psychotherapy:</h4>
-  <p>Emotional and Psychological Healing: Pranic Psychotherapy focuses on healing emotional and psychological issues.</p>
-  <p>Negative Emotions: Techniques are used to disintegrate negative thought forms, emotions, and psychological patterns stored in the energy body.</p>
-  <p>Conditions Treated: This type of Pranic Healing is beneficial for individuals dealing with stress, anxiety, trauma, depression, and other emotional challenges.</p>
+        <p>
+          When searching for a Pranic healing practitioner, it’s important to
+          verify their credentials and certifications. Look for practitioners
+          who have completed official Pranic Healing courses and are recognized
+          by reputable Pranic Healing organizations. Additionally, consider
+          factors such as experience, testimonials, and compatibility with your
+          needs and preferences. Always feel free to reach out to the
+          practitioner directly to inquire about their services, approach, and
+          availability. This will help you make an informed decision and find a
+          practitioner who resonates with you.
+        </p>
+      </div>
+      <div id="faq">
+        <h2>Frequently asked questions about Pranic healing</h2>
+        <p>
+          Commonly asked questions about Pranic healing often revolve around its
+          principles, practice, and efficacy. Some of these frequently asked
+          questions include:
+        </p>
 
-  <h4>Pranic Crystal Healing:</h4>
-  <p>Crystal Selection: Specific crystals are chosen based on their properties and the energy centers they target.</p>
-  <p>Crystal Activation: These crystals are then energetically cleansed, charged, and programmed to enhance the healing process.</p>
-  <p>Conditions Treated: Pranic Crystal Healing can be used to amplify the effects of healing for various conditions and energy imbalances.</p>
-
-  <h4>Pranic Psychic Self-Defense:</h4>
-  <p>Psychic Attacks: This type of Pranic Healing is designed to protect individuals from negative psychic and energetic influences.</p>
-  <p>Energy Shields: Techniques involve creating energetic shields and fortifying the aura to prevent unwanted energetic intrusions.</p>
-  <p>Conditions Treated: Pranic Psychic Self-Defense helps individuals maintain their energetic well-being and protects them from negative psychic influences.</p>
-
-  <h4>Superbrain Yoga:</h4>
-  <p>Physical and Energetic Integration: Superbrain Yoga combines specific physical exercises with energy work to balance and integrate the left and right brain hemispheres.</p>
-  <p>Benefits: It is believed to enhance cognitive function, improve memory, and promote emotional stability by harmonizing the brain’s energy.</p>
-
-  <h4>Pranic Feng Shui:</h4>
-  <p>Energy in Spaces: Pranic Feng Shui applies Pranic principles to spaces, assessing the energy flow in homes and workplaces.</p>
-  <p>Improving Energy: Practitioners use Pranic Healing techniques to enhance the energy balance within the environment, which can lead to improved health, prosperity, and well-being.</p>
-
-  <h4>Kriyashakti:</h4>
-  <p>Goal Manifestation: Kriyashakti combines energy techniques with practical exercises to help individuals materialize their goals and attract abundance.</p>
-  <p>Techniques: This includes powerful visualizations, affirmations, and energy practices to create a conducive environment for success.</p>
-
-  <p>These detailed descriptions provide a deeper understanding of each type of Pranic Healing and its specific applications for physical, emotional, and psychological well-being, as well as for enhancing one’s living spaces and manifesting personal goals.</p>
-  <img src="benefits.jpeg" alt="Pranic Healing">
-  <h2>The benefits of Pranic healing</h2>
-  <p>Pranic Healing is an alternative energy healing system developed by Master Choa Kok Sui, which aims to promote physical, emotional, and mental well-being by balancing and harmonizing the body’s energy, or “prana.” While its effectiveness and scientific validity are subject to debate and further research, some proponents and practitioners claim several potential benefits associated with Pranic Healing:</p>
-
-  <ul>
-    <li>Pain Relief: Pranic Healing is believed to help alleviate physical pain and discomfort by clearing energy blockages, which may contribute to various physical ailments.</li>
-    <li>Stress Reduction: Practitioners claim that Pranic Healing can reduce stress and promote relaxation, which may improve mental and emotional well-being.</li>
-    <li>Improved Energy Levels: The practice is said to enhance energy levels and vitality by cleansing and revitalizing the body’s energy systems.</li>
-    <li>Emotional Healing: Pranic Healing may help in releasing emotional traumas and negative thought patterns, leading to emotional well-being and a more positive outlook on life.</li>
-    <li>Enhanced Clarity and Focus: Some individuals report improved mental clarity and focus after receiving Pranic Healing sessions.</li>
-    <li>Faster Recovery: It is believed that Pranic Healing can speed up the body’s natural healing processes by optimizing the flow of vital energy.</li>
-    <li>Enhanced Immune Function: Advocates suggest that Pranic Healing can support the immune system, making the body more resilient to illness.</li>
-    <li>Improved Relationships: By addressing emotional and mental imbalances, Pranic Healing might help individuals improve their relationships with others.</li>
-    <li>Holistic Approach: Pranic Healing is considered a holistic healing system that addresses the underlying energetic imbalances that can contribute to physical and psychological issues.</li>
-    <li>Non-Invasive: It is a non-touch and non-invasive healing method, making it suitable for those who prefer alternative therapies that do not involve medication or physical manipulation.</li>
-  </ul>
-
-  <h2>How to find a Pranic healing practitioner</h2>
-  <p>To find a Pranic healing practitioner, you can follow these steps:</p>
-
-  <ol>
-    <li>Pranic Healing Official Website: Visit the <a href="https://www.pranichealing.com/">official website of Pranic Healing</a> and navigate to the “Find a Practitioner” or “Directory” section. They often provide a search feature where you can enter your location or preferred criteria to find certified practitioners in your area.</li>
-    <li>Local Pranic Healing Centers: Check if there are any local Pranic Healing centers or institutes in your area. These centers usually have a list of certified practitioners associated with them. You can contact them directly or visit their websites to find practitioners near you.</li>
-    <li>Pranic Healing Associations: Look for Pranic Healing associations or organizations in your country or region. These associations often maintain directories of certified practitioners. They may have online directories or provide contact information to help you connect with practitioners.</li>
-    <li>Referrals and Recommendations: Seek recommendations from friends, family, or acquaintances who have experience with Pranic healing. They may be able to refer you to a trusted practitioner they have worked with or know personally.</li>
-    <li>Online Directories and Platforms: Explore online directories and platforms that specialize in alternative healing practices. Websites like Healing Clouds (https://www.healingclouds.com/) or Energy Healing Exchange (https://www.energyhealingexchange.com/) may have listings of Pranic healing practitioners along with reviews and ratings from previous clients.</li>
-    <li>Social Media and Online Communities: Engage with Pranic healing communities on social media platforms like Facebook, LinkedIn, or forums dedicated to energy healing. These communities often have members who are practitioners or can provide recommendations based on their experiences.</li>
-  </ol>
-
-  <p>When searching for a Pranic healing practitioner, it’s important to verify their credentials and certifications. Look for practitioners who have completed official Pranic Healing courses and are recognized by reputable Pranic Healing organizations. Additionally, consider factors such as experience, testimonials, and compatibility with your needs and preferences. Always feel free to reach out to the practitioner directly to inquire about their services, approach, and availability. This will help you make an informed decision and find a practitioner who resonates with you.</p>
-
-  <h2>Frequently asked questions about Pranic healing</h2>
-  <p>Commonly asked questions about Pranic healing often revolve around its principles, practice, and efficacy. Some of these frequently asked questions include:</p>
-
-  <ul>
-    <li>What is Pranic Healing? - Encompassing energy healing techniques, it involves cleansing, energizing, and balancing the body’s energy to promote well-being.</li>
-    <li>How does Pranic Healing work? - It operates on the principle that the body has an energy field and disturbances or blockages in this field lead to physical and psychological ailments. Pranic healers work to manipulate this energy for healing.</li>
-    <li>Is Pranic Healing safe? - Practitioners claim that it’s non-invasive and generally safe.</li>
-    <li>What conditions can Pranic Healing address? - Advocates suggest it can help with various physical, emotional, and mental health issues, from chronic pain to stress, anxiety, and more.</li>
-    <li>Can Pranic Healing be learned and practiced by anyone? - Yes, it’s believed that with proper training and practice, individuals can learn the techniques and apply them for healing purposes.</li>
-    <li>Is there any scientific evidence supporting Pranic Healing? - Scientific research validating its effectiveness is limited, but anecdotal evidence and some small-scale studies exist. The empirical basis remains a topic of discussion.</li>
-    <li>How long does it take for Pranic Healing to show results? - This varies widely based on individual conditions, their severity, and the body’s response. Some report immediate relief, while others require multiple sessions.</li>
-    <li>Do I need to believe in Pranic Healing for it to work? - Advocates say that belief is not a requirement for it to be effective; the energy work can still have an impact.</li>
-  </ul>
-
-  <h2>Blog: Articles about Pranic healing</h2>
-  <ul>
-    <li><a href="#">What is Pranic Facial?</a></li>
-    <li><a href="#">The Chakras: Esoteric Healing</a></li>
-    <li><a href="#">Energy Healing: The Different Types</a></li>
-    <li><a href="#">The Cancer Survivor Who Has Devoted Herself to Healing Others</a></li>
-  </ul>
-
-  <h2>Contact form</h2>
-  <p>To get in touch, you can reach out to Aditi Rao at definitelynotaditi@gmail.com.</p>
-</body>
+        <ul>
+          <li>
+            What is Pranic Healing? - Encompassing energy healing techniques, it
+            involves cleansing, energizing, and balancing the body’s energy to
+            promote well-being.
+          </li>
+          <li>
+            How does Pranic Healing work? - It operates on the principle that
+            the body has an energy field and disturbances or blockages in this
+            field lead to physical and psychological ailments. Pranic healers
+            work to manipulate this energy for healing.
+          </li>
+          <li>
+            Is Pranic Healing safe? - Practitioners claim that it’s non-invasive
+            and generally safe.
+          </li>
+          <li>
+            What conditions can Pranic Healing address? - Advocates suggest it
+            can help with various physical, emotional, and mental health issues,
+            from chronic pain to stress, anxiety, and more.
+          </li>
+          <li>
+            Can Pranic Healing be learned and practiced by anyone? - Yes, it’s
+            believed that with proper training and practice, individuals can
+            learn the techniques and apply them for healing purposes.
+          </li>
+          <li>
+            Is there any scientific evidence supporting Pranic Healing? -
+            Scientific research validating its effectiveness is limited, but
+            anecdotal evidence and some small-scale studies exist. The empirical
+            basis remains a topic of discussion.
+          </li>
+          <li>
+            How long does it take for Pranic Healing to show results? - This
+            varies widely based on individual conditions, their severity, and
+            the body’s response. Some report immediate relief, while others
+            require multiple sessions.
+          </li>
+          <li>
+            Do I need to believe in Pranic Healing for it to work? - Advocates
+            say that belief is not a requirement for it to be effective; the
+            energy work can still have an impact.
+          </li>
+        </ul>
+      </div>
+      <div id="articles">
+        <h2>Blog: Articles about Pranic healing</h2>
+        <ul>
+          <li><a href="#">What is Pranic Facial?</a></li>
+          <li><a href="#">The Chakras: Esoteric Healing</a></li>
+          <li><a href="#">Energy Healing: The Different Types</a></li>
+          <li>
+            <a href="#"
+              >The Cancer Survivor Who Has Devoted Herself to Healing Others</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="contact_form">
+        <h2>Contact form</h2>
+        <p>
+          To get in touch, you can reach out to Aditi Rao at
+          rao23.aditi@gmail.com.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
